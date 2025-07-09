@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - SMARXX</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="logo">SMARXX</div>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+        </nav>
+      </header>
+      
+      
+      <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>Send us a message and we’ll get back to you soon.</p>
+        
+        <form action="https://formspree.io/f/mwpbzrrb" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      <!--  <div id="form-message" class="form-message">Thank you! Your message has been sent. 💌</div>-->
+      <div id="form-status" style="margin-top: 1rem; color: green;"></div>
+        
+      </section>
+      
+      <div class="page-wrapper">
+        <!-- your entire page content here including <header>, <section>, etc. -->
+      </div>
+  <footer>
+    <p>&copy; 2025 SMARXX Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
